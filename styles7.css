@@ -1,0 +1,422 @@
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+  }
+  h3{
+    font-size: 50px;
+    color: rgb(8, 8, 8);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  p{
+    font-size: 18px;
+    font-family: cursive;
+  }
+
+  /* Estilos para el logo */
+  .logo img {
+    max-width: 100%;
+    height: 80px;
+  }
+
+  /* Estilos para las opciones del centro */
+  .options {
+    display: flex;
+    justify-content: center;
+  }
+
+  .options a {
+    margin: 0 10px;
+  }
+
+  /* Estilos para el botón de iniciar sesión y registrarse */
+  .btn {
+    padding: 12px 20px;
+    background-color: rgba(2, 25, 126, 0.8);
+    color: rgb(239, 239, 239);
+    border-color: rgb(17, 54, 110);
+    border:vh;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: italic;
+  }
+
+
+  .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-body {
+      padding: 20px;
+    }
+
+  /* Estilos para el cuadro emergente */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 550px;
+    border-radius: 5px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+    .modal-body {
+      padding: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: rgb(31, 78, 121);
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 310px;
+      
+    }
+    .form-inline {
+      display: flex;
+      align-items: center;
+      gap: 120px;
+    }
+
+    .form-group button:hover {
+      background-color: rgb(161, 204, 244);
+      color: #000;
+    }
+
+  /* Estilos para el cuerpo */
+  .container {
+    display: flex;
+    padding: 50px;
+    height: 550px;
+    
+  }
+  a{
+    color: black;
+    size: 300px;
+  }
+
+  .person-info {
+    flex: 0.8;
+  }
+
+  .person-info h3 {
+    margin-top: 2;
+  }
+
+  .person-info p {
+    margin-bottom: 0;
+  }
+
+  .person-photo {
+    flex: 1;
+    text-align: right;
+  }
+
+  .person-photo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+  header{
+    background-color: #fff;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #aedcf9, #f8f8f8);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .person-info button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 70px;
+    background-color:rgb(31, 78, 121);
+    font-size: large;
+    color: #fff;
+    border: none;
+    
+    cursor: pointer;
+  }
+
+  .horarios-botones {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .tabla {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .fila-tabla {
+    display: table-row;
+  }
+
+  .celda-tabla {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .encabezado-tabla {
+    font-weight: bold;
+  }
+
+  .boton {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  table {
+    border-collapse: collapse;
+    background-color: rgb(139, 200, 253);
+  }
+
+  th{
+      background-color: rgb(55, 101, 170);
+      border-collapse: collapse;
+      border: 1px solid rgb(255, 255, 255);
+  } 
+  td {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  .disponible {
+    background-color: rgb(226, 224, 224);
+  }
+
+  .ocupado {
+    background-color: gray;
+  }
+  .leyenda {
+    margin-top: 20px;
+  }
+
+  .leyenda span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+
+  .leyenda .ocupado {
+    background-color: gray;
+  }
+  .date-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .button{
+    padding: px 15px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .profile-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-logo {
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 25px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    display: none;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dropdown-menu ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-logo::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #333;
+    cursor: pointer;
+  }
+  
+  .profile-logo:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    display: none;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dropdown-menu ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-logo::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #333;
+    cursor: pointer;
+  }
+  
+  .profile-logo:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+  }
+  .selected {
+    background-color: yellow;
+  }

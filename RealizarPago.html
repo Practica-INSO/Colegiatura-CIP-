@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INSO2 - Laboratorio Semana 12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary-subtle">
+    <div class="container">
+      <a class="navbar-brand " href="index.html">Colegio de Ingenieros</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" href="#">Solicitud</a>
+          </li>
+          <li class="nav-item">
+            <a href="consultar.html" class="nav-link active" aria-current="page" href="#">Consultar Estado</a>
+          </li>
+        </ul>
+      </div>
+    </div>  
+  </nav>
+    
+      
+  <div class="modal-content1" style="border: none; display: flex; margin-top: 20px; justify-content: center; align-items: center; height: 100%;">
+    <div class="panel panel-default" style="max-width: 500px;">
+      <div class="panel-heading">
+        <h3 class="panel-title">Selecciona el metodo de pago</h3>
+      </div>
+      <div class="panel-body">
+        <form action="comprobante.html"> 
+          <div class="form-group">
+            <label for="pasarela" style="margin-bottom: 1rem; ">Pasarela de Pago</label>
+            <div class="card-images">
+              <img src="img7/logo-American-Express.png" alt="Tarjeta 1" class="card-image" style="width: 100px;">
+              <img src="img7/targets-visa-mc.png" alt="Tarjeta 1" class="card-image" style="width: 125px;">
+ 
+            </div>
+            <select class="form-control" id="pasarela" name="pasarela" style="margin-block: 1rem;">
+              <option value="">Selecciona una pasarela de pago</option>
+              <option value="paypal">American Express</option>
+              <option value="stripe">Visa</option>
+              <option value="mercadopago">MasterCard</option>
+            </select>
+          </div>
+          <div class="form-group p3">
+            <label for="numero_tarjeta">Numero de Tarjeta</label>
+            <input required type="number" class="form-control" id="numero_tarjeta" name="numero_tarjeta" placeholder="Ingrese el numero de tarjeta" minlength="16">
+          </div>
+          <div class="form-group">
+            <label for="nombre_tarjeta">Nombre del titular de la Tarjeta</label>
+            <input required type="text" class="form-control" id="nombre_tarjeta" name="nombre_tarjeta" placeholder="Ingrese el nombre en la tarjeta" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Ingrese solo letras (sin números ni caracteres especiales)">
+          </div>
+          
+          <div class="form-group p3">
+            <label for="fecha_vencimiento">Fecha de Vencimiento</label>
+            <input required type="date" class="form-control" id="fecha_vencimiento" name="fecha_vencimiento" placeholder="MM/AA">
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input required type="number" class="form-control" id="cvv" name="cvv" placeholder="Ingrese el codigo de seguridad" minlength="3">
+          </div>
+          <div style="display: flex; justify-content: center;">
+            <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">Realizar Pago</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+
+  
+  
+
+</body>
+</html>
